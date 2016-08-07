@@ -1,0 +1,32 @@
+{
+  "name": "addblocksite",
+  "version": "1.0.0",
+  "description": "site addblock",
+  "main": "server.js",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch & node server.js"
+  },
+  "author": "Diana Marcela Niño",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "npm": "^3.10.5",
+    "pug": "^2.0.0-beta4",
+    "source": "0.0.3"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
